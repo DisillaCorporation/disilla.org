@@ -6,7 +6,7 @@ const webconfig = require("./webconfig")
 app.use(express.static("public_html"))
 app.use('/data', serveIndex(__dirname + '/data'));
 app.get('/discord', function(req, res){
-   res.redirect(301, `https://discord.io/chrono`)
+   res.redirect(301, `https://discord.gg/SFytdyB`)
    console.log(`Discord Redirect sent to ${req.ip}`)
    next()
 });
