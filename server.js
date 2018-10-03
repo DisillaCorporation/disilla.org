@@ -16,7 +16,7 @@ app.get('/*', function(req, res){
    console.log(`Error Page sent to ${req.ip}`)
 });
  
-app.listen(80, running)
+app.listen(4000, running)
 function running() {
 console.log(`listening on port: 80`)
 }
